@@ -15,7 +15,7 @@
   <body>
     <!-- navbar -->
     <nav class=" navbar navbar-expand-lg bg-dark border-bottom navbar-dark">
-      <div class="container">
+      <div class="container-fluid">
         <!-- navbar logo -->
         <a href="#" class="navbar-brand">Collab-Practice</span></a>
         <!-- navbar hamburger menu -->
@@ -30,13 +30,13 @@
         <!-- navbar links -->
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a href="learn.html" class="nav-link">What I'm Learning</a>
+            <a href="learn.html" class="nav-link">Page1</a>
           </li>
           <li class="nav-item">
-            <a href="questions.html" class="nav-link">Questions</a>
+            <a href="questions.html" class="nav-link">Page2</a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="contact.html" class="nav-link">Page3</a>
           </li>
         </div>
           
@@ -44,19 +44,28 @@
     </nav>
      
     <section>
+      <div class="mt-2 mb-4 text-white text-center bg-dark rounded-3">
+         <div class="container-fluid py-5">
+             <h1 class="display-5 fw-bold">Jumbotron Practice</h1>
+             <p>This is how you recreate a Jumbotron using utilities in Bootstrap 5!</p>
+             <button class="btn btn-outline-light" type="button">Jumbotron</button>
+         </div>
+      </div>
+    </section>
+    <section>
       <div class="container text-dark text-center">
         <div class="row">
-          <div class="col-lg-6 bg-danger" id="left">
+          <div class="col-lg-2 bg-danger" id="left">
             <p>Column 1</p>
           </div>
-          <div class="col-lg-6 bg-warning" id="right">
+          <div class="col-lg-10 bg-warning" id="right">
             <p>Column 2</p>
           </div>
         </div>
       </div>
     </section>
 
-   <!-- Remove the container if you want to extend the Footer to full width. -->
+   
   <!-- Footer -->
   <footer class="text-center text-white" style="background-color: #3f51b5">
     <!-- Grid container -->

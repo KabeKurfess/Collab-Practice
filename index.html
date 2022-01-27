@@ -13,34 +13,43 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark text-light">
-      <div class="container-fluid">
-        <a href="#" class="navbar-brand">Collab-Practice</a>
-        <div class="collapse navbar-collapse"></div>
-        <ul class="navbar-nav">
+    <!-- navbar -->
+    <nav class=" navbar navbar-expand-lg bg-dark border-bottom navbar-dark">
+      <div class="container">
+        <!-- navbar logo -->
+        <a href="#" class="navbar-brand">Collab-Practice</span></a>
+        <!-- navbar hamburger menu -->
+        <button class="navbar-toggler" 
+        type="button"
+        data-bs-toggle="collapse" 
+        data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+          <div class="collapse navbar-collapse" id="navmenu">
+            
+        <!-- navbar links -->
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a href="#" class="nav-link active">Home</a>
+            <a href="learn.html" class="nav-link">What I'm Learning</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Page1</a>
+            <a href="questions.html" class="nav-link">Questions</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Page2</a>
+            <a href="contact.html" class="nav-link">Contact</a>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Page3</a>
-          </li>
-        </ul>
         </div>
+          
       </div>
     </nav>
+     
     <section>
       <div class="container text-dark text-center">
         <div class="row">
-          <div class="col bg-danger p-5" id="left">
+          <div class="col-lg-6 bg-danger p-5" id="left">
             <p>Column 1</p>
           </div>
-          <div class="col bg-warning p-5" id="right">
+          <div class="col-lg-6 bg-warning p-5" id="right">
             <p>Column 2</p>
           </div>
         </div>
